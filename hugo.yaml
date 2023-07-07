@@ -1,0 +1,15 @@
+baseURL: https://chie.app/
+languageCode: en-us
+title: Chie
+theme: paper
+
+params:
+  github: chieapp/chie
+  rss: true
+  disableHLJS: true
+
+menu:
+  main:
+  - name: News
+    pageRef: /posts
+    weight: 10
