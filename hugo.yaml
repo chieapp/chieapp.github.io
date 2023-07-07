@@ -8,8 +8,7 @@ params:
   rss: true
   disableHLJS: true
 
-menu:
-  main:
-  - name: News
-    pageRef: /posts
-    weight: 10
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

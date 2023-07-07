@@ -4,6 +4,7 @@
 <style type="text/css">
   main { padding-top: 0!important }
   article h2 { color: #00B386!important; margin-top: 0!important }
+  article img { margin: 0!important }
 </style>
 
 <!-- Tag Title -->
@@ -19,7 +20,10 @@
 
 <!-- Intro -->
 <article>
-  <section>{{ os.ReadFile "content/intro.md" | markdownify }}</section>
+  <section>
+    {{ os.ReadFile "content/introduction/index.md" | markdownify }}
+    <h2>News</h2>
+  </section>
 </article>
 
 <!-- Articles -->
