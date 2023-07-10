@@ -3,9 +3,12 @@ New Bing. It works on macOS, Linux and Windows, and uses native UI on each
 platform.
 
 <style>
-html img.screenshot-dark { display: none }
-html.dark img.screenshot-light { display: none }
-html.dark img.screenshot-dark { display: block }
+  @media (prefers-color-scheme: light) {
+    img.screenshot-dark { display: none }
+  }
+  @media (prefers-color-scheme: dark) {
+    img.screenshot-light { display: none }
+  }
 </style>
 
 <img src="/introduction/screenshot.png" alt="Screenshot of the Chie app" class="screenshot-light">
