@@ -4,6 +4,7 @@ title: Chie
 theme: paper
 
 params:
+  author: Cheng
   github: chieapp/chie
   rss: true
   disableHLJS: true

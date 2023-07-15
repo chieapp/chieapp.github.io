@@ -1,4 +1,4 @@
-Chie is an extensible desktop app for Generative AI like ChatGPT and
+Chie is an extensible desktop app for large language models like ChatGPT and
 New Bing. It works on macOS, Linux and Windows, and uses native UI on each
 platform.
 
