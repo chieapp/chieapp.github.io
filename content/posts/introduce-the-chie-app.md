@@ -54,7 +54,7 @@ Currently Chie officially supports 3 backends of AI services:
 
 And it is possible to use other kinds of AI services by using
 [extensions](#extensions), for example Google Bard with
-[chie-extension-bard][bard].
+[chie-extension-bard](https://github.com/chieapp/chie-extension-bard).
 
 It is also supported to add multiple backends of the same kind with different
 credentials, and each backend can be used to create multiple AI assistants with
