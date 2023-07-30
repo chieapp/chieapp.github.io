@@ -18,8 +18,7 @@ advantages over other similar apps:
 
 * Open source and hackable.
 * Support extensions.
-* NOT an Electron app.
-* NOT a webview wrapper of web pages.
+* Use native UI (GTK on Linux, Cocoa on macOS, Win32 on Windows).
 
 Visit [GitHub](https://github.com/chieapp/chie) for source code, and
 [download links](https://github.com/chieapp/chie/releases/latest) for compiled
@@ -129,8 +128,7 @@ I have written a few sample extensions to show what they are capable of.
 
 Chie is written in [TypeScript](https://www.typescriptlang.org) and runs on [a
 slightly modified Node.js runtime](https://github.com/yue/yode), it uses native
-UI (GTK on Linux, Cocoa on macOS, Win32 on Windows) with help of the
-[Yue](https://github.com/yue/yue) library.
+UI  with help of the [Yue](https://github.com/yue/yue) library.
 
 While using a native UI toolkit, a large part of Chie's UI is custom drawn,
 because the standard UI elements are not rich enough to describe a modern chat
