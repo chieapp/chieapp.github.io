@@ -4,12 +4,17 @@ date: 2023-07-28T10:41:47+09:00
 ---
 
 <style>
-  h2 { color: #00B386!important }
   @media (prefers-color-scheme: light) {
     img.screenshot-dark { display: none }
   }
   @media (prefers-color-scheme: dark) {
     img.screenshot-light { display: none }
+  }
+  h2 { color: #00B386!important }
+  img {
+    width: 100%;
+    height: auto;
+    margin: auto;
   }
 </style>
 
@@ -82,14 +87,14 @@ the [chie-extension-translator](https://github.com/chieapp/chie-extension-transl
 extension provides a `TranslatorView`, which is more handy than a chat interface
 when users are using AI assistants to do translation work.
 
-<img src="translator-view.png" alt="Translator View" style="max-width: 539px; margin: auto">
+<img src="translator-view.png" alt="Translator View" style="max-width: 539px">
 
 ### Tray icons and keyboard shortcuts
 
 To make access to assistants easier, Chie supports setting separate tray icons
 and keyboard shortcuts for assistants.
 
-<img src="assisant-settings.png" alt="Assistant Settings" style="max-width: 557px; margin: auto">
+<img src="assisant-settings.png" alt="Assistant Settings" style="max-width: 557px">
 
 ### Run ChatGPT plugins locally
 
@@ -100,7 +105,7 @@ For example [chie-extension-browser-tools](https://github.com/chieapp/chie-exten
 implements 2 tools for browsing and searching Internet, which can be used by the
 AI assistants to provide up-to-date information.
 
-<img src="tools.png" alt="Local Tools Execution" style="max-width: 450px; margin: auto">
+<img src="tools.png" alt="Local Tools Execution" style="max-width: 450px">
 
 The tools in Chie extensions run locally on user's machine, making it possible
 for AI assistants to interact natively with the local machine, which is
